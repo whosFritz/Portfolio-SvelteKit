@@ -15,15 +15,22 @@ To get a local copy up and running, follow these simple steps.
 
 1. Clone the repo
 
-```
-git clone https://github.com/whosFritz/Portfolio-SvelteKit
-```
+   ```
+   git clone https://github.com/whosFritz/Portfolio-SvelteKit
+   ```
+
+   and
+   navigate into Directory
+
+   ```
+   cd Portfolio-SvelteKit
+   ```
 
 2. Install NPM packages
 
-```
-npm install
-```
+   ```
+   npm install
+   ```
 
 ### Usage
 
