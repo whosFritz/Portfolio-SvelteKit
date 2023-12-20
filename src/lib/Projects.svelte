@@ -39,7 +39,7 @@
       "The former version of this website was built using HTML, JavaScript and Bootstrap5.",
       "It is hosted on a virtual server and I am planning to add a personal blog to this website.",
     ]}
-    projectLink="https://github.com/whosFritz/Portfolio"
+    projectLink="https://github.com/whosFritz/Portfolio-SvelteKit"
     imageURL="favicon-fritz.png"
     displayColor="#f1d766"
   ></SingelProject>
