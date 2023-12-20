@@ -17,7 +17,6 @@ export async function load({ cookies }) {
 
 export const actions: Actions = {
   default: async ({ cookies }) => {
-    console.log("default");
     cookies.set("consentCookie", true, {
       maxAge: 60 * 60 * 24 * 365,
       path: "/",
