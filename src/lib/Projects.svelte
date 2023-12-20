@@ -35,7 +35,7 @@
   <SingelProject
     heading="whosFritz.de"
     descriptions={[
-      "This website is my personal portfolio. It is built with SvelteKit, TailwindCSS and the Component Library Flowbite.",
+      "This website is my personal portfolio. It is built with SvelteKit, TailwindCSS and the component library daisyui.",
       "The former version of this website was built using HTML, JavaScript and Bootstrap5.",
       "It is hosted on a virtual server and I am planning to add a personal blog to this website.",
     ]}
