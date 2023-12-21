@@ -79,7 +79,7 @@
         class="btn btn-xs font-semibold"
         class:active={i === selectedIndex}
         on:click={() => carouselScroll(i + 1)}
-        >{term_map.get(item.scope)}</button
+        >{term_map.get(item.time_range)}</button
       >
       <!-- Use anonymous event handling call to pass custom argument (the image number)-->
     {/each}
