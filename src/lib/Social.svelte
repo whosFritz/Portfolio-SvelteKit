@@ -6,12 +6,13 @@
   let term_map = new Map([
     ["short_term", "last 4 weeks"],
     ["medium_term", "last 6 months"],
-    ["long_term", "all Time"],
+    ["long_term", "over the years"],
   ]);
   let carouselElement;
+  let selectedIndex = 0;
 
   function carouselScroll(toImage) {
-    console.log("scrolling to image", toImage);
+    selectedIndex = toImage - 1;
 
     // Scroll to takes 2 arguments. One is the pixel in the x axis, the second is the pixel in the y axis
     // We take the clientWidth of the carousel element and add 1 pixel to scroll to the given image
@@ -74,7 +75,10 @@
   <p class="text-center mt-8 font-medium">Check out my fav spotify songs...</p>
   <div class="flex justify-center w-full py-2 gap-2 mt-4">
     {#each songs as item, i}
-      <button class="btn btn-xs" on:click={() => carouselScroll(i + 1)}
+      <button
+        class="btn btn-xs font-semibold"
+        class:active={i === selectedIndex}
+        on:click={() => carouselScroll(i + 1)}
         >{term_map.get(item.scope)}</button
       >
       <!-- Use anonymous event handling call to pass custom argument (the image number)-->
@@ -90,3 +94,9 @@
     {/each}
   </div>
 </section>
+
+<style>
+  .active {
+    @apply text-green-500;
+  }
+</style>
