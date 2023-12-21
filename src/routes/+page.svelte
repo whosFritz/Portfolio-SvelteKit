@@ -12,7 +12,8 @@
   import type PageData from "./$types";
 
   export let data: PageData;
-  let { bestSong, consentCookie } = data;
+  let { favSongs, consentCookie } = data;
+  // create schema for songs
 </script>
 
 <Navigation />
@@ -21,7 +22,9 @@
   <Divider />
   <Github />
   <Divider />
-  <Social favSongID={bestSong.spotify_id} />
+  <Social
+  songs={favSongs}
+  />
   <Divider />
   <Projects />
   <Divider />
