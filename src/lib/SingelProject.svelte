@@ -1,6 +1,6 @@
 <script lang="ts">
   export let heading: string;
-  export let descriptions: [...string[]];
+  export let descriptions: string[];
   export let imageURL: string;
   export let projectLink: string;
   export let displayColor: string;
