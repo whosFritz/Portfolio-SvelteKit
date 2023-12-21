@@ -1,9 +1,8 @@
 import { MongoClient } from "mongodb";
 import { MONGODB_URL } from "$env/static/private";
 
-const url = MONGODB_URL;
-console.log("Connecting to mongo at " + url);
-const client = new MongoClient(url);
+console.log("Connecting to mongo at " + MONGODB_URL);
+const client = new MongoClient(MONGODB_URL);
 export function start_mongo() {
   console.log("Starting mongo...");
   client.connect();
