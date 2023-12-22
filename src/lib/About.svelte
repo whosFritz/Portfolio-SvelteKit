@@ -1,3 +1,7 @@
+<script lang="ts">
+  import IntroAnimation from "./IntroAnimation.svelte";
+</script>
+
 <section id="about-section" class="about-section pt-24">
   <div class="flex flex-wrap">
     <div class="w-full md:w-3/5 m-auto md:pr-6">
@@ -8,7 +12,7 @@
           >👋</span
         >
       </p>
-      <p class="font-semibold my-3 text-3xl">My name is Fritz Schubert.</p>
+      <IntroAnimation />
       <p class="mb-4 text-lg">
         Currently completing dual Bachelor's in Computer Science 🎓. Engaged in
         software development and contributing to projects on GitHub. Passionate

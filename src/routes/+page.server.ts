@@ -7,18 +7,17 @@ export async function load({ cookies }) {
     .sort({ $natural: -1 })
     .toArray();
 
-  
   // if u find the first item with scope: 'short_term' then set that one to shortTerm same for the other two scopes
-  let shortTerm = data.find((item) => item.scope === "short_term");
-  let mediumTerm = data.find((item) => item.scope === "medium_term");
-  let longTerm = data.find((item) => item.scope === "long_term");
+  let shortTerm = data.find((item) => item.time_range === "short_term");
+  let mediumTerm = data.find((item) => item.time_range === "medium_term");
+  let longTerm = data.find((item) => item.time_range === "long_term");
 
   shortTerm = JSON.parse(JSON.stringify(shortTerm));
   mediumTerm = JSON.parse(JSON.stringify(mediumTerm));
   longTerm = JSON.parse(JSON.stringify(longTerm));
   // put them into a list
 
-  const songs: [...any] = [shortTerm, mediumTerm, longTerm];
+  const songs: any[] = [shortTerm, mediumTerm, longTerm];
 
   return {
     favSongs: songs,
