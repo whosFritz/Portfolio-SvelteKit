@@ -1,4 +1,5 @@
 import { favSongscollection } from "../db/favSongs";
+import { Song } from "../lib/types.js";
 import type { Actions } from "./$types";
 export async function load({ cookies }) {
   const cookie = cookies.get("consentCookie");
@@ -17,7 +18,7 @@ export async function load({ cookies }) {
   longTerm = JSON.parse(JSON.stringify(longTerm));
   // put them into a list
 
-  const songs: any[] = [shortTerm, mediumTerm, longTerm];
+  const songs = [shortTerm, mediumTerm, longTerm];
 
   return {
     favSongs: songs,

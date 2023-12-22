@@ -1,5 +1,6 @@
 <script lang="ts">
-  export let project: any;
+  import type { Project } from "../lib/types";
+  export let project: Project;
 </script>
 
 <div
