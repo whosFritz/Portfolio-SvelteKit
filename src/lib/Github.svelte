@@ -5,7 +5,7 @@
   <div class="text-center">
     <p class="text-center text-3xl font-bold">
       Explore my projects on GitHub
-      <span class="glowing" style="--intensity:4px; --display-color: #01B9C5 "
+      <span class="glowing" style="--intensity:4px; --display-color: #01B9C5"
         >🔍</span
       >
     </p>
