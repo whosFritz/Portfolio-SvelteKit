@@ -10,10 +10,7 @@
   });
 </script>
 
-<p
-  class="min-h-8 font-semibold my-3 text-2xl glowing"
-  style="--intensity:2px; --display-color: #01B9C5"
->
+<p class="min-h-8 font-semibold my-3 text-2xl">
   {#if animate}
     {#each words as word, i}
       <span
