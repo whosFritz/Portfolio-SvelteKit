@@ -1,14 +1,6 @@
 <script lang="ts">
   import Spotify from "./Spotify.svelte";
-
-  interface Song {
-    last_checked: string;
-    last_updated: string;
-    spotify_id: string;
-    time_range: string;
-    track_name: string;
-    _id: string;
-  }
+  import { Song } from "./types";
   export let songs: Song[];
 
   let term_map = new Map([
