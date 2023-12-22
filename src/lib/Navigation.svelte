@@ -1,11 +1,13 @@
 <script lang="ts">
   import { onMount } from "svelte";
   import { themeChange } from "theme-change";
+  let theme: string;
 
   // NOTE: the element that is using one of the theme attributes must be in the DOM on mount
   onMount(() => {
     themeChange(false);
     // 👆 false parameter is required for svelte
+    theme = document.documentElement.getAttribute("data-theme");
   });
 </script>
 
@@ -68,7 +70,7 @@
         type="checkbox"
         value="winter"
         class="toggle theme-controller"
-        data-toggle-theme="dark,winter"
+        data-toggle-theme="winter,dark"
         data-act-class="ACTIVECLASS"
       />
       <svg
