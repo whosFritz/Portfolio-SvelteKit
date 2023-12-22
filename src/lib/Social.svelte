@@ -1,9 +1,9 @@
 <script lang="ts">
   import Spotify from "./Spotify.svelte";
-  import { Song } from "./types";
+  import type { Song } from "../lib/types";
   export let songs: Song[];
 
-  let term_map = new Map([
+  const term_map = new Map([
     ["short_term", "last 4 weeks"],
     ["medium_term", "last 6 months"],
     ["long_term", "over the years"],

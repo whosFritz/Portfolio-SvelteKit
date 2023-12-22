@@ -6,3 +6,11 @@ export interface Song {
   last_checked: string;
   last_updated: string;
 }
+
+export interface Project {
+  heading: string;
+  descriptions: string[];
+  projectLink: string;
+  imageURL: string;
+  displayColor: string;
+}
