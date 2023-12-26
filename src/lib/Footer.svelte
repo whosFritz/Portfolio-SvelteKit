@@ -3,10 +3,8 @@
     <a href="/"
       ><img
         width="30px"
-        href="/"
         src="/favicon-fritz.png"
         alt="whosFritz Logo"
-        name="whosFritz"
       /></a
     >
 

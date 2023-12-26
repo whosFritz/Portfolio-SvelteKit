@@ -1,5 +1,5 @@
-<script>
-  export let favSongID;
+<script lang="ts">
+  export let favSongID: string;
 </script>
 
 <iframe

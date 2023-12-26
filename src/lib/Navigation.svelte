@@ -1,7 +1,7 @@
 <script lang="ts">
   import { onMount } from "svelte";
   import { themeChange } from "theme-change";
-  let theme: string;
+  let theme: string | null;
   let spam_counter = 0;
 
   // NOTE: the element that is using one of the theme attributes must be in the DOM on mount

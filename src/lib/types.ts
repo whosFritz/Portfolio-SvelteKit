@@ -1,4 +1,6 @@
-export interface Song {
+import type { Document } from "mongodb";
+
+export interface Song extends Document{
   _id: string;
   spotify_id: string;
   time_range: string;

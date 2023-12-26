@@ -1,7 +1,8 @@
 import { favSongscollection } from "../db/favSongs";
 import type { Actions } from "./$types";
-export async function load({ cookies }) {
-  const consentCookie = cookies.get("consentCookie");
+import type { Cookies } from "@sveltejs/kit";
+export async function load({ cookies }: { cookies: Cookies }) {
+  const consentCookie = cookies.get("consentCookie") || "false";
 
   const data = await favSongscollection
     .find({})
@@ -22,13 +23,13 @@ export async function load({ cookies }) {
 
   return {
     favSongs: songs,
-    consentCookie: consentCookie,
+    consentCookie: consentCookie==="true",
   };
 }
 
 export const actions: Actions = {
   default: async ({ cookies }) => {
-    cookies.set("consentCookie", true, {
+    cookies.set("consentCookie", "true", {
       maxAge: 60 * 60 * 24 * 365,
       path: "/",
     });

@@ -9,8 +9,7 @@
   import CookieBanner from "../lib/CookieBanner.svelte";
   import Contact from "../lib/Contact.svelte";
   import Divider from "../lib/Divider.svelte";
-  import type PageData from "./$types";
-
+  import type { PageData } from "./$types";
   export let data: PageData;
   let { favSongs, consentCookie } = data;
   // create schema for songs
