@@ -44,7 +44,10 @@
         <li><a href="#contact-section">Contact</a></li>
       </ul>
     </div>
-    <a href="/" class="btn btn-ghost text-xl">whosfritz</a>
+    <span class="btn btn-ghost text-xl">
+      <img src="/favicon-fritz.png" alt="" class="w-5">
+      <a href="/">whosfritz</a>
+    </span>
   </div>
   <div class="navbar-center hidden md:flex">
     <ul class="menu menu-horizontal px-1">
