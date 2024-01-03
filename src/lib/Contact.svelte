@@ -19,6 +19,13 @@
       LinkedIn
     </a>
     <span>or</span>
-    <a href="mailto:fritz.schubert@whosfritz.de" class="link-accent">Email</a>
+    <a
+      rel="noopener noreferrer"
+      href="https://www.instagram.com/whosfritz"
+      target="_blank"
+      class="link-accent"
+    >
+    Instagram
+    </a>
   </p>
 </section>
