@@ -12,12 +12,12 @@
   </aside>
   <nav class="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
     <a
-      href="https://github.com/whosFritz/Portfolio/blob/master/portfolio_impressum.html"
+      href="/impressum"
       >Impressum (legal notice)</a
     >
     <a
-      href="https://github.com/whosFritz/Portfolio/blob/master/datenschutzerklaerung.html"
-      >Privacy Policy</a
+      href="/datenschutz"
+      >Datenschutzerklärung (Privacy Policy)</a
     >
   </nav>
 </footer>
