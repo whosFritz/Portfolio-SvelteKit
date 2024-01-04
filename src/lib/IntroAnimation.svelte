@@ -2,7 +2,7 @@
   import { fly } from "svelte/transition";
   import { backOut } from "svelte/easing";
   import { onMount } from "svelte";
-  const words = ["My", "", "name", "", "is", "", "Fritz Schubert"];
+  const words = ["My name", "", "is", "Fritz Schubert"];
   let animate = false;
 
   onMount(() => {
