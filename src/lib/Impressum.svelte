@@ -71,9 +71,6 @@
 	h3 {
 		@apply text-xl my-4;
 	}
-    h4 {
-		@apply text-lg my-4;
-	}
     p {
 		@apply my-4;
 	}
