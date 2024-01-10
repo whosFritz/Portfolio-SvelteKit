@@ -2,8 +2,8 @@
 	<h1 id="impressum">Impressum www.whosfritz.de</h1>
 	<p>Angaben gemäß § 5 TMG</p>
 	<p>Fritz Schubert</p>
-	<p>Hauptstraße 4a</p>
-	<p>08340 Schwarzenberg</p>
+	<p>Schiebestraße 14</p>
+	<p>04129 Leipzig</p>
 	<p>Vertreten durch: Fritz Schubert</p>
 	<p>Kontakt:</p>
 	<p>Telefon: +49 1627497832</p>
