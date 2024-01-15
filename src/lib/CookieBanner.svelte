@@ -43,10 +43,9 @@
           Funktion der Webseite notwendig. Sie können die Cookies in den
           Einstellungen Ihres Browsers deaktivieren. Weitere Informationen
           finden Sie in der <a
-            href="https://github.com/whosFritz/Portfolio/blob/master/datenschutzerklaerung.html"
-          >
-            Datenschutzerklärung
-          </a>.
+          class="link"
+            href="/datenschutz"
+          >Datenschutzerklärung.</a>
         </p>
       </div>
       <div class="mx-auto w-full md:w-1/4 flex flex-col items-center my-auto">
