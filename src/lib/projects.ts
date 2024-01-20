@@ -7,7 +7,7 @@ export const projects: Project[] = [
       "MensiMates is an application that helps you stay up-to-date with the meals in your campus cafeteria. Never miss a meal again, and enjoy a variety of options at your fingertips.",
       "Connect with other students by rating the dish you just ate. ⭐",
     ],
-    projectLink: "https://projectmensimates.whosfritz.de",
+    projectLink: "https://project.mensimates.de",
     imageURL: "images/design-MensiMates.png",
     displayColor: "#ff7f50",
   },
