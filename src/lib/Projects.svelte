@@ -1,5 +1,5 @@
 <script lang="ts">
-  import SingelProject from "./SingelProject.svelte";
+  import SingelProject from "./ProjectCard.svelte";
   import Divider from "./Divider.svelte";
   import { projects } from "./projects";
 </script>
