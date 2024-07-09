@@ -12,31 +12,32 @@ export const projects: Project[] = [
     displayColor: "#F50909",
   },
   {
-    heading: "MensiMates",
+    heading: "CampusDual iCal Clone",
     descriptions: [
-      "MensiMates is an application that helps you stay up-to-date with the meals in your campus cafeteria. Never miss a meal again, and enjoy a variety of options at your fingertips.",
-      "Connect with other students by rating the dish you just ate. ⭐",
+      "Campus Dual, the student platform for BA-Sachsen, has there own schedule ical feed. But it stopped working and beeing supported years ago. So I decided to build my own ical feed for the students.",
+      "The project uses NodeJS, Express and the ical-service library to create a new ical feed for the students.  📅", " The Students are able to login using there username and hash.",
+      "Getting the hash is quite complicated, so I plan to develop an API to imitate the login process and get the hash for the students.🔐"
     ],
-    projectLink: "https://project.mensimates.de",
-    imageURL: "images/design-MensiMates.png",
-    displayColor: "#ff7f50",
+    projectLink: "https://cdclonefeed.whosfritz.de",
+    imageURL: "images/calendar-1763587_1920.png",
+    displayColor: "#18b76c",
   },
   {
-    heading: "Geo Mapping Ivan",
+    heading: "Mensi FoodFeed iCal",
     descriptions: [
-      "Geo Mapping Ivan is a micro service written in go-lang to process data from the /var/log/auth.log file under linux.",
-      "With the metrics sent to prometheus you are able to display the data in Grafana. My Custom Grafana Dashboard shows the relevant information about Countries, tried usernames and Geolocation.",
+      "Clicking through the online mensa plan is annoying. So I decided to build a new ical feed for the students of the BA-Sachsen and other universities, using the API from mensaHub from my mate Ole Einar Christoph. 👨🏻‍💻",
+      "Students of the BA-Sachsen and other universities are able to get there mensa food plan as an ical feed. This project uses NodeJS, Express MongoDB, the mensaHub Gateway and the ical-service library to create a new ical feed for the students.🍽️"
     ],
-    projectLink: "https://github.com/whosFritz/geo-mapping-ivan",
-    imageURL: "images/LOGO-GEO-MAPPING-IVAN.png",
-    displayColor: "#18b76c",
+    projectLink: "https://mensafoodfeed.whosfritz.de",
+    imageURL: "images/menu-827750_1920.jpg",
+    displayColor: "#ff7f50",
   },
   {
     heading: "whosFritz.de",
     descriptions: [
-      "This website is my personal portfolio. It is built with SvelteKit, TailwindCSS and the component library daisyui.",
-      "The former version of this website was built using HTML, JavaScript and Bootstrap5.",
-      "It is hosted on a virtual server and I am planning to add a personal blog to this website.",
+      "This website is my personal portfolio. It is built with SvelteKit, TailwindCSS and the component library daisyui. 👨🏻‍💻",
+      "My favorite songs that are displayed on the website are fetched from the Spotify API through a dockerized python script with internal scheduling. 🎵",
+      "The former version of this website was built using HTML, JavaScript and Bootstrap5."
     ],
     projectLink: "https://github.com/whosFritz/Portfolio-SvelteKit",
     imageURL: "favicon-fritz.png",
