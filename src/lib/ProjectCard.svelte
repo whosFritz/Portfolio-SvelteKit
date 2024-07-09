@@ -18,7 +18,7 @@
 		</a>
 
 		{#each project.descriptions as description}
-			<p class="mt-3 font-semibold">{description}</p>
+			<p class="mt-3 leading-8 font-semibold">{description}</p>
 		{/each}
 	</div>
 
