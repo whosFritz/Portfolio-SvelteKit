@@ -4,7 +4,7 @@
 </script>
 
 <div
-	class="flex flex-col md:flex-row items-center my-4 rounded-lg p-4 shadow-2xl backshadow growOnHover"
+	class="flex flex-col md:flex-row items-center my-4 rounded-3xl p-4 shadow-2xl backshadow growOnHover border border-slate-500"
 >
 	<div class="md:w-3/5">
 		<a href={project.projectLink} target="_blank" class={project.displayColor}>
