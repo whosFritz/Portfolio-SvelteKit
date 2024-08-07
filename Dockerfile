@@ -1,7 +1,7 @@
 #Dockerfile
 
 # Use this image as the platform to build the app
-FROM node:latest
+FROM node:alpine
 
 # A small line inside the image to show who made it
 LABEL Developers="Fritz Schubert"
