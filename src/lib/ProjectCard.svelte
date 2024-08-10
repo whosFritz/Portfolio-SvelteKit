@@ -39,11 +39,4 @@
 			var(--tw-shadow),
 			0 0 10px rgba(0, 0, 0, 0.2);
 	}
-	.growOnHover {
-		transition: all 0.2s ease-in-out;
-	}
-
-	.growOnHover:hover {
-		transform: scale(1.05);
-	}
 </style>
