@@ -23,7 +23,7 @@ export const projects: Project[] = [
     displayColor: "#18b76c",
   },
   {
-    heading: "Mensi FoodFeed iCal",
+    heading: "Mensa FoodFeed iCal",
     descriptions: [
       "Clicking through the online mensa plan is annoying. So I decided to build a new ical feed for the students of the BA-Sachsen and other universities, using the API from mensaHub from my mate Ole Einar Christoph. 👨🏻‍💻",
       "Students of the BA-Sachsen and other universities are able to get there mensa food plan as an ical feed. This project uses NodeJS, Express MongoDB, the mensaHub Gateway and the ical-service library to create a new ical feed for the students.🍽️"
