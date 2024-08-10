@@ -12,7 +12,6 @@
   import type { PageData } from "./$types";
   export let data: PageData;
   let { favSongs, consentCookie } = data;
-  // create schema for songs
 </script>
 
 <Navigation />
