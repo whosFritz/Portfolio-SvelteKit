@@ -27,7 +27,6 @@
     document.documentElement.setAttribute('data-theme', theme);
     current_theme = theme;
     isDarkTheme = current_theme === THEMES.DARK;
-    console.log(`Checkbox is now: ${isDarkTheme ? 'checked' : 'unchecked'}`);
   }
 
   function toggle_theme(): void {
