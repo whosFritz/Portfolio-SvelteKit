@@ -3,7 +3,7 @@
 	import { THEMES } from '$lib/index';
 
 	let current_theme: string;
-	let isDarkTheme = false;
+	let isDarkTheme = false as boolean;
 
 	onMount(() => {
 		const saved_theme = document.documentElement.getAttribute('data-theme');

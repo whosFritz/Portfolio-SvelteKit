@@ -74,7 +74,7 @@
   <div class="flex justify-center w-full py-2 gap-2 mt-4">
     {#each songs as item, i}
       <button
-        class="btn btn-xs font-semibold"
+        class="btn btn-xs font-semibold growOnHover"
         style="--intensity:4px; --display-color: rgb(34 197 94)"
         class:glowing={i === selectedIndex}
         class:active={i === selectedIndex}
