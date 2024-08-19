@@ -2,8 +2,7 @@ version: '3.8'
 
 services:
   server:
-    build:
-      context: .
+    build: .
     ports:
       - ${SERVER_PORT}:${SERVER_PORT}
     environment:
