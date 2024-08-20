@@ -17,7 +17,7 @@
     </p>
     <a
       role="button"
-      class="btn font-bold py-0 glowing growOnHover" style="--intensity:4px; --display-color: #01B9C5"
+      class="btn font-bold py-0 growOnHover text-cyan-500"
       rel="noopener noreferrer"
       href="https://www.github.com/whosfritz"
       target="_blank"
