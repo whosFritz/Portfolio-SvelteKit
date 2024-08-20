@@ -5,8 +5,6 @@ services:
     build: .
     ports:
       - ${SERVER_PORT}:${SERVER_PORT}
-    environment:
-      - ORIGIN=https://www.whosfritz.de
     depends_on:
       - mongo_container
     restart: unless-stopped
