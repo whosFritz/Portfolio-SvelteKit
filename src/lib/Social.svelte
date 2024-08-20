@@ -14,9 +14,6 @@
 
   function carouselScroll(toImage: number) {
     selectedIndex = toImage;
-
-    // Scroll to takes 2 arguments. One is the pixel in the x axis, the second is the pixel in the y axis
-    // We take the clientWidth of the carousel element and add 1 pixel to scroll to the given image
     carouselElement.scrollTo(carouselElement.clientWidth * toImage + 1, 0);
   }
 </script>
@@ -81,13 +78,10 @@
         on:click={() => carouselScroll(i)}
         >{term_map.get(item.time_range)}</button
       >
-      <!-- Use anonymous event handling call to pass custom argument (the image number)-->
     {/each}
   </div>
   <div class="carousel w-full" bind:this={carouselElement}>
-    <!-- Bind this to carousel element to call scrollTo()-->
     {#each songs as song, i}
-      <!-- content here -->
       <div id="item{i}" class="carousel-item w-full">
         <Spotify favSongID={song.spotify_id} />
       </div>
