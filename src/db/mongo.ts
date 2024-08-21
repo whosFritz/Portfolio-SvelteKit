@@ -1,11 +1,16 @@
 import { MongoClient } from "mongodb";
 
-const MONGODB_URL = "mongodb://mongo_container:27017/favSongswhosfritz";
-console.log("Connecting to mongo at " + MONGODB_URL);
+const MONGODB_URL = "mongodb://localhost:2717/favSongswhosfritz";
 const client = new MongoClient(MONGODB_URL);
-export function start_mongo() {
-  console.log("Starting mongo...");
-  client.connect();
+
+export async function connect(): Promise<void> {
+  await client.connect();
 }
 
-export default client.db();
+export async function disconnect(): Promise<void> {
+  await client.close();
+}
+
+export function getDB() {
+  return client.db();
+}

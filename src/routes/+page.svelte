@@ -1,6 +1,5 @@
 <script lang="ts">
   import Navigation from "../lib/Navigation.svelte";
-
   import About from "../lib/About.svelte";
   import Footer from "../lib/Footer.svelte";
   import Github from "../lib/Github.svelte";
@@ -9,7 +8,9 @@
   import CookieBanner from "../lib/CookieBanner.svelte";
   import Contact from "../lib/Contact.svelte";
   import Divider from "../lib/Divider.svelte";
+
   import type { PageData } from "./$types";
+  
   export let data: PageData;
   let { favSongs, consentCookie } = data;
 </script>
