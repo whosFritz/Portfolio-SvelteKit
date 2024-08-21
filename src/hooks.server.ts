@@ -1,8 +1,12 @@
-import { start_mongo } from "./db/mongo";
 import { THEMES } from "$lib/index";
+import { connect } from './db/mongo';
 
-
-start_mongo();
+// Connect to MongoDB before starting the server
+connect().then((): void => {
+	console.log("MongoDB started");
+}).catch((e) => {
+	console.log("MongoDB failed to start:", e);
+});
 
 export const handle = async ({ event, resolve }) => {
 	const theme = event.cookies.get("theme");
