@@ -1,4 +1,4 @@
 import db from "../db/mongo";
-import { COLLECTION_NAME } from "$env/static/private";
 
+const COLLECTION_NAME = "favSongswhosfritz";
 export const favSongscollection = db.collection(COLLECTION_NAME);

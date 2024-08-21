@@ -1,5 +1,6 @@
 import { MongoClient } from "mongodb";
-import { MONGODB_URL } from "$env/static/private";
+
+const MONGODB_URL = "mongodb://mongo_container:27017/favSongswhosfritz";
 
 console.log("Connecting to mongo at " + MONGODB_URL);
 const client = new MongoClient(MONGODB_URL);

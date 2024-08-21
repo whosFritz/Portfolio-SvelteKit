@@ -1,10 +1,12 @@
-version: '3.8'
-
 services:
   server:
     build: .
     ports:
-      - ${SERVER_PORT}:${SERVER_PORT}
+      - $SERVER_PORT:$SERVER_PORT
+    environment:
+      - SERVER_PORT=$SERVER_PORT
+    env_file:
+      - .env
     depends_on:
       - mongo_container
     restart: unless-stopped
