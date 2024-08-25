@@ -1,7 +1,6 @@
 <script lang="ts">
 	import Spotify from './Spotify.svelte';
 	import type { Song } from '../lib/types';
-	import type { WithId, Document } from 'mongodb';
 
 	export let songs: Song[];
 
@@ -60,7 +59,7 @@
 <section id="social-media-section" class="my-8">
 	<p class="text-center text-3xl font-bold">
 		Connect with me on social media
-		<span class="glowing" style="--intensity:4px; --display-color: #eacf39">🥳</span>
+		<span>🥳</span>
 	</p>
 	<p class="text-center text-lg font-medium my-3">Get to know me better and connect with me on:</p>
 	<div class="flex justify-center mt-4 gap-8">
@@ -98,7 +97,6 @@
 			{#each songs as item, i}
 				<button
 					class="btn btn-xs font-semibold growOnHover"
-					style="--intensity:4px; --display-color: rgb(34 197 94)"
 					class:glowing={i === selectedIndex}
 					class:active={i === selectedIndex}
 					on:click={() => carouselScroll(i)}>{term_map.get(item.time_range)}</button
@@ -126,6 +124,7 @@
 
 <style>
 	.active {
-		color: #14f198;
+		color: rgb(53, 188, 53);
+		border: 1px solid rgb(53, 188, 53);
 	}
 </style>
