@@ -41,6 +41,20 @@
 			}
 		}
 	}
+
+	function handleScroll() {
+		const scrollLeft = carouselElement.scrollLeft;
+		const scrollWidth = carouselElement.scrollWidth;
+		const clientWidth = carouselElement.clientWidth;
+
+		if (scrollLeft === 0) {
+			selectedIndex = 0;
+		} else if (scrollLeft + clientWidth === scrollWidth) {
+			selectedIndex = songs.length - 1;
+		} else {
+			selectedIndex = Math.round(scrollLeft / clientWidth);
+		}
+	}
 </script>
 
 <section id="social-media-section" class="my-8">
@@ -97,6 +111,7 @@
 			on:touchstart={handleTouchStart}
 			on:touchmove={handleTouchMove}
 			on:touchend={handleTouchEnd}
+			on:scroll={handleScroll}
 		>
 			{#each songs as song, i}
 				<div id="item{i}" class="carousel-item w-full">
