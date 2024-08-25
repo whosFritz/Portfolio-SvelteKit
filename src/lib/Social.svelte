@@ -1,6 +1,8 @@
 <script lang="ts">
 	import Spotify from './Spotify.svelte';
 	import type { Song } from '../lib/types';
+	import type { WithId, Document } from 'mongodb';
+
 	export let songs: Song[];
 
 	const term_map = new Map([
@@ -12,9 +14,32 @@
 	let carouselElement: HTMLElement;
 	let selectedIndex = 0;
 
+	let startX: number;
+	let endX: number;
+
 	function carouselScroll(toImage: number) {
 		selectedIndex = toImage;
 		carouselElement.scrollTo(carouselElement.clientWidth * toImage + 1, 0);
+	}
+
+	function handleTouchStart(event: TouchEvent) {
+		startX = event.touches[0].clientX;
+	}
+
+	function handleTouchMove(event: TouchEvent) {
+		endX = event.touches[0].clientX;
+	}
+
+	function handleTouchEnd() {
+		if (startX > endX) {
+			if (selectedIndex < songs.length - 1) {
+				carouselScroll(selectedIndex + 1);
+			}
+		} else {
+			if (selectedIndex > 0) {
+				carouselScroll(selectedIndex - 1);
+			}
+		}
 	}
 </script>
 
@@ -66,7 +91,13 @@
 				>
 			{/each}
 		</div>
-		<div class="carousel w-full" bind:this={carouselElement}>
+		<div
+			class="carousel w-full"
+			bind:this={carouselElement}
+			on:touchstart={handleTouchStart}
+			on:touchmove={handleTouchMove}
+			on:touchend={handleTouchEnd}
+		>
 			{#each songs as song, i}
 				<div id="item{i}" class="carousel-item w-full">
 					<Spotify favSongID={song.spotify_id} />
@@ -80,6 +111,6 @@
 
 <style>
 	.active {
-		@apply text-green-500;
+		color: #14f198;
 	}
 </style>
