@@ -8,7 +8,7 @@
 			<p class="text-3xl font-bold">About Me</p>
 			<p class="font-semibold my-2 text-2xl">
 				Greetings, visitor!
-				<span class="glowing" style="--intensity:3px; --display-color: #eacf39">👋</span>
+				<span>👋</span>
 			</p>
 			<IntroAnimation />
 			<p class="mb-4 text-lg">

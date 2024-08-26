@@ -5,9 +5,7 @@
 <slot />
 
 <style global lang="postcss">
-	:global(.glowing) {
-		color: var(--display-color);
-	}
+
 
 	:global(.growOnHover) {
 		transition: all 0.2s ease-in-out;

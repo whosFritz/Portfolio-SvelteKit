@@ -44,20 +44,18 @@
 			rel="noopener noreferrer"
 			href="https://www.linkedin.com/in/fritz-schubert-616a00246/"
 			target="_blank"
-			class="glowing"
-			style="--intensity: 4px; --display-color: #0A66C2;"
+			class="btn btn-xs text-cyan-500 btn-outline growOnHover"
 		>
-			<img src="images/linkedin-ico.ico" alt="linkedin" width="48" class="rounded-full" />
+			LinkedIn
 		</a>
 
 		<a
 			rel="noopener noreferrer"
 			href="https://www.instagram.com/whosfritz"
 			target="_blank"
-			class="glowing"
-			style="--intensity: 4px; --display-color: #E1306C;"
+			class="btn btn-xs text-pink-500 btn-outline growOnHover"
 		>
-			<img src="images/ig64-ico.ico" alt="instagram" width="48" class="rounded-full" />
+			Instagram
 		</a>
 	</div>
 	<p class="text-center mt-4">
@@ -74,7 +72,6 @@
 			{#each songs as item, i}
 				<button
 					class="btn btn-xs font-semibold growOnHover"
-					class:glowing={i === selectedIndex}
 					class:active={i === selectedIndex}
 					on:click={() => carouselScroll(i)}>{term_map.get(item.time_range)}</button
 				>

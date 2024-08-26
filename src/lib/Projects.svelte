@@ -7,7 +7,7 @@
 <section id="projects-section" class="my-12">
 	<p class="text-center text-3xl font-bold my-8">
 		<span> Projects </span>
-		<span class="glowing" style="--intensity: 4px; --display-color: pink;"> 🚀 </span>
+		<span> 🚀 </span>
 	</p>
 	{#each projects as project, i}
 		<SingelProject {project} />

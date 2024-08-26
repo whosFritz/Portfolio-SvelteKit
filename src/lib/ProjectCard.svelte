@@ -10,8 +10,8 @@
 		<a href={project.projectLink} target="_blank" class={project.displayColor}>
 			<p
 				color={project.displayColor}
-				class="flex text-2xl glowing"
-				style="--intensity: 2px; --display-color: {project.displayColor};"
+				class="flex text-2xl "
+				style="color: {project.displayColor};"
 			>
 				{project.heading}
 			</p>
