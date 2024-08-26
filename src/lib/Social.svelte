@@ -80,11 +80,7 @@
 				>
 			{/each}
 		</div>
-		<div
-			class="carousel w-full"
-			bind:this={carouselElement}
-			on:scroll={handleScroll}
-		>
+		<div class="carousel w-full" bind:this={carouselElement} on:scroll={handleScroll}>
 			{#each songs as song, i}
 				<div id="item{i}" class="carousel-item w-full">
 					<Spotify favSongID={song.spotify_id} />
@@ -100,5 +96,8 @@
 	.active {
 		color: rgb(53, 188, 53);
 		border: 1px solid rgb(53, 188, 53);
+	}
+	.carousel-item {
+		transition: transform 0.3s ease-in-out;
 	}
 </style>
