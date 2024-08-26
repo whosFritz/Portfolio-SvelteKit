@@ -13,32 +13,9 @@
 	let carouselElement: HTMLElement;
 	let selectedIndex = 0;
 
-	let startX: number;
-	let endX: number;
-
 	function carouselScroll(toImage: number) {
 		selectedIndex = toImage;
 		carouselElement.scrollTo(carouselElement.clientWidth * toImage + 1, 0);
-	}
-
-	function handleTouchStart(event: TouchEvent) {
-		startX = event.touches[0].clientX;
-	}
-
-	function handleTouchMove(event: TouchEvent) {
-		endX = event.touches[0].clientX;
-	}
-
-	function handleTouchEnd() {
-		if (startX > endX) {
-			if (selectedIndex < songs.length - 1) {
-				carouselScroll(selectedIndex + 1);
-			}
-		} else {
-			if (selectedIndex > 0) {
-				carouselScroll(selectedIndex - 1);
-			}
-		}
 	}
 
 	function handleScroll() {
