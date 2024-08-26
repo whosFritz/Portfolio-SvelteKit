@@ -80,11 +80,7 @@
 				>
 			{/each}
 		</div>
-		<div
-			class="carousel w-full"
-			bind:this={carouselElement}
-			on:scroll={handleScroll}
-		>
+		<div class="carousel w-full" bind:this={carouselElement} on:scroll={handleScroll}>
 			{#each songs as song, i}
 				<div id="item{i}" class="carousel-item w-full">
 					<Spotify favSongID={song.spotify_id} />
