@@ -106,9 +106,6 @@
 		<div
 			class="carousel w-full"
 			bind:this={carouselElement}
-			on:touchstart={handleTouchStart}
-			on:touchmove={handleTouchMove}
-			on:touchend={handleTouchEnd}
 			on:scroll={handleScroll}
 		>
 			{#each songs as song, i}
