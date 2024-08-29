@@ -1,8 +1,25 @@
 import { THEMES } from "$lib/index";
-import { connect } from './db/mongo';
+import { connectDB } from './db/mongo';
+import { env } from '$env/dynamic/private';
+import { MongoClient } from "mongodb";
+
+// das geht:
+console.log("ENV", env.MONGODB_URL);
+
+// das nicht:
+const url = env.MONGODB_URL;
+console.log("const", url, Boolean(url));
+
+if (url) {
+	const client = new MongoClient(env.MONGODB_URL!);
+	console.log("MongoDB Client erstellt connecte jetzt...");
+	await client.connect();
+	console.log("MongoDB geht");
+}
+
 
 // Connect to MongoDB before starting the server
-connect().then((): void => {
+connectDB().then((): void => {
 	console.log("MongoDB started");
 }).catch((e) => {
 	console.log("MongoDB failed to start:", e);

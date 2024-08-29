@@ -1,9 +1,12 @@
 import { MongoClient } from "mongodb";
+import { env } from '$env/dynamic/private';
 
-const MONGODB_URL = "mongodb://mongo_container:27017/favSongswhosfritz";
+
+const MONGODB_URL = env.MONGODB_URL;
+console.log("MongoDB URL", MONGODB_URL);
 const client = new MongoClient(MONGODB_URL);
 
-export async function connect(): Promise<void> {
+export async function connectDB(): Promise<void> {
   await client.connect();
 }
 

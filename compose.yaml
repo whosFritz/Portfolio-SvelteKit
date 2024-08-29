@@ -2,9 +2,11 @@ services:
   server:
     build: .
     ports:
-      - $SERVER_PORT:3000
+      - 7879:3000
     depends_on:
       - mongo_container
+    environment:
+      - MONGODB_URL=mongodb://mongo_container:27017/favSongswhosfritz
     restart: unless-stopped
     networks:
       - portfolio_network
@@ -12,7 +14,7 @@ services:
   mongo_container:
     image: mongo:latest
     ports:
-      - ${MONGO_PORT}:27017
+      - 2717:27017
     volumes:
       - mongo_container:/data/db
     restart: unless-stopped
