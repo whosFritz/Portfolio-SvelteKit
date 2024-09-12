@@ -1,6 +1,6 @@
 import { MongoClient } from "mongodb";
 
-const MONGODB_URL = "mongodb://mongo_container:2717/favSongswhosfritz";
+const MONGODB_URL = "mongodb://mongo_container:27017/favSongswhosfritz";
 const client = new MongoClient(MONGODB_URL);
 
 export async function connect(): Promise<void> {
