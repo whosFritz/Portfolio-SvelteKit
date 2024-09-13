@@ -2,7 +2,7 @@
 	import IntroAnimation from './IntroAnimation.svelte';
 </script>
 
-<section id="about-section" class="about-section pt-24">
+<section id="about-section" class="about-section pt-24 fade-in-bottom delay1">
 	<div class="flex flex-wrap">
 		<div class="w-full md:w-3/5 m-auto md:pr-6">
 			<p class="text-3xl font-bold">About Me</p>
@@ -30,3 +30,8 @@
 		</div>
 	</div>
 </section>
+
+<style>
+	/* Keyframes for fade-in-bottom animation */
+	
+</style>

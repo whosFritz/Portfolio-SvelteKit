@@ -33,7 +33,7 @@
 	}
 </script>
 
-<section id="social-media-section" class="my-8">
+<section id="social-media-section" class="my-8 fade-in-bottom delay3">
 	<p class="text-center text-3xl font-bold">
 		Connect with me on social media
 		<span>🥳</span>

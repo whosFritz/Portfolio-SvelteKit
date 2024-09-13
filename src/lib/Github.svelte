@@ -1,7 +1,7 @@
 <script>
 </script>
 
-<section id="github-section" class="github-section">
+<section id="github-section" class="github-section fade-in-bottom delay2">
 	<div class="text-center">
 		<p class="text-center text-3xl font-bold">
 			Explore my projects on GitHub
