@@ -18,7 +18,7 @@
 	<div
 		bind:this={elementOnce}
 		class:intersecting={intersectOnce}
-		class="fade-in flex flex-col md:flex-row items-center my-4 rounded-3xl p-4 shadow-2xl backshadow border border-slate-500"
+		class="fade-in flex flex-col md:flex-row items-center my-4 rounded-3xl p-4 shadow-2xl backshadow border border-slate-500 growOnHover"
 	>
 		<div class="md:w-3/5">
 			<a href={project.projectLink} target="_blank" class={project.displayColor}>
