@@ -12,12 +12,12 @@
 			</p>
 			<IntroAnimation />
 			<p class="mb-4 text-lg">
-				Currently completing dual Bachelor's in Computer Science 🎓. Engaged in software development
-				and contributing to projects on GitHub. Passionate about dynamic web and mobile app
-				development using Java, HTML, CSS, and JavaScript. Frameworks: Flutter, Spring Boot, Vaadin,
-				SvelteKit. Aspiring fullstack developer, always eager to learn and stay updated on tech
-				trends. Outside coding, I enjoy hiking 🥾 and exploring Leipzig's restaurants 🍴 and bars
-				🍸.
+				Recently graduated with a Bachelor's in Computer Science 🎓. Experienced in software
+				development and actively contributing to projects on GitHub. Passionate about dynamic web
+				and mobile app development using Java, HTML, CSS, and JavaScript. Frameworks: Flutter,
+				Spring Boot, Vaadin, SvelteKit. Aspiring fullstack developer, always eager to learn and stay
+				updated on tech trends. Outside of coding, I enjoy hiking 🥾 and exploring Leipzig's
+				restaurants 🍴 and bars 🍸.
 			</p>
 		</div>
 
@@ -33,5 +33,4 @@
 
 <style>
 	/* Keyframes for fade-in-bottom animation */
-	
 </style>
