@@ -10,5 +10,5 @@
 	frameBorder="0"
 	allow="fullscreen;"
 	loading="lazy"
-	class="m-auto mt-6 rounded-3xl growOnHover mb-2"
+	class="m-auto mt-6 rounded-3xl mb-2"
 ></iframe>

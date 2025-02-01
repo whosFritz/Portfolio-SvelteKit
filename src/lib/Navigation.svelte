@@ -36,11 +36,11 @@
 	</div>
 	<div class="navbar-center hidden md:flex">
 		<ul class="menu menu-horizontal px-1">
-			<li><a class="growOnHover" href="#about-section">About me</a></li>
-			<li><a class="growOnHover" href="#github-section">GitHub</a></li>
-			<li><a class="growOnHover" href="#social-media-section">Social Media Sites</a></li>
-			<li><a class="growOnHover" href="#projects-section">Projects</a></li>
-			<li><a class="growOnHover" href="#contact-section">Contact</a></li>
+			<li><a class="" href="#about-section">About me</a></li>
+			<li><a class="" href="#github-section">GitHub</a></li>
+			<li><a class="" href="#social-media-section">Social Media Sites</a></li>
+			<li><a class="" href="#projects-section">Projects</a></li>
+			<li><a class="" href="#contact-section">Contact</a></li>
 		</ul>
 	</div>
 	<div class="navbar-end md:flex mr-6">

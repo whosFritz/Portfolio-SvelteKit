@@ -44,7 +44,7 @@
 			rel="noopener noreferrer"
 			href="https://www.linkedin.com/in/fritz-schubert-616a00246/"
 			target="_blank"
-			class="btn btn-xs text-cyan-500 btn-outline growOnHover"
+			class="btn btn-xs text-cyan-500 btn-outline"
 		>
 			LinkedIn
 		</a>
@@ -53,7 +53,7 @@
 			rel="noopener noreferrer"
 			href="https://www.instagram.com/whosfritz"
 			target="_blank"
-			class="btn btn-xs text-pink-500 btn-outline growOnHover"
+			class="btn btn-xs text-pink-500 btn-outline"
 		>
 			Instagram
 		</a>
@@ -71,7 +71,7 @@
 		<div class="flex justify-center w-full py-2 gap-2 mt-4">
 			{#each songs as item, i}
 				<button
-					class="btn btn-xs font-semibold growOnHover"
+					class="btn btn-xs font-semibold"
 					class:active={i === selectedIndex}
 					on:click={() => carouselScroll(i)}>{term_map.get(item.time_range)}</button
 				>
