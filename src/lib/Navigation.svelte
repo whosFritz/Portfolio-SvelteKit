@@ -29,10 +29,10 @@
 				<li><a href="#contact-section">Contact</a></li>
 			</ul>
 		</div>
-		<span class="btn btn-ghost text-xl">
+		<h1 class="btn btn-ghost text-xl">
 			<img src="/favicon-fritz.png" alt="logo" class="w-5" />
 			<a href="/">whosfritz</a>
-		</span>
+		</h1>
 	</div>
 	<div class="navbar-center hidden md:flex">
 		<ul class="menu menu-horizontal px-1">
