@@ -3,10 +3,10 @@
 
 <section id="github-section" class="github-section fade-in-bottom delay2">
 	<div class="text-center">
-		<p class="text-center text-3xl font-bold">
+		<h2 class="text-center text-3xl font-bold">
 			Explore my projects on GitHub
 			<span>🔍</span>
-		</p>
+		</h2>
 		<p class="text-lg font-normal my-4">
 			On my GitHub profile, you'll find all of my latest projects and contributions to others. I'm
 			always on the lookout for new ways to collaborate and make an impact, so feel free to check
