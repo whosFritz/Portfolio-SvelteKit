@@ -30,7 +30,7 @@
 			</ul>
 		</div>
 		<span class="btn btn-ghost text-xl">
-			<img src="/favicon-fritz.png" alt="" class="w-5" />
+			<img src="/favicon-fritz.png" alt="logo" class="w-5" />
 			<a href="/">whosfritz</a>
 		</span>
 	</div>
