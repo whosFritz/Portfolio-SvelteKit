@@ -46,8 +46,9 @@ export const projects: Project[] = [
   {
     heading: "Vaadin Share Button",
     descriptions: [
-      "The Vaadin Share Button is a handy add-on that seamlessly integrates a native Web Share API button into your Vaadin application.",
-      "It lets users quickly share your app's content on social media, messaging apps, and more, with just a tap or click. 🔗"
+      "This Vaadin Share Button is a handy add-on that seamlessly integrates a native Web Share API button into your Vaadin application.",
+      "It lets users quickly share your app's url and content on social media, messaging apps, and more, with just a tap or click. 🔗",
+      "The Button can simply be imported using the corresponding maven dependency from vaadin addons directory. Feel free to set Icon, text and description for the link you want to share."
     ],
     projectLink: "https://vaadin.com/directory/component/share-button-for-vaadin",
     imageURL: "images/shareButtonImplementation.png",
