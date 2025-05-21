@@ -44,14 +44,14 @@ export const projects: Project[] = [
     displayColor: "#f1d766",
   },
   {
-    heading: "Permission Tracker",
-    descriptions: [
-      "PermissionTracker is a web application developed to streamline and secure the process of managing user access rights in an organization.",
-      "The application allows users to request specific access permissions, such as accessing certain resources or functionalities. These requests are then routed per mail to the respective approvers for review and approval. 🔒",
+    "heading": "Vaadin Share Button",
+    "descriptions": [
+      "The Vaadin Share Button is a handy add-on that seamlessly integrates a native Web Share API button into your Vaadin application.",
+      "It lets users quickly share your app's content on social media, messaging apps, and more, with just a tap or click. 🔗"
     ],
-    projectLink: "https://github.com/whosFritz/PermissionTracker",
-    imageURL: "images/permissiontracker_project.png",
-    displayColor: "#3dd5f0",
+    "projectLink": "https://vaadin.com/directory/component/share-button-for-vaadin",
+    imageURL: "images/shareButtonImplementation.png",
+    "displayColor": "#3dd5f0"
   },
   {
     heading: "3D BA-Leipzig",
