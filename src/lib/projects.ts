@@ -44,7 +44,7 @@ export const projects: Project[] = [
     displayColor: "#f1d766",
   },
   {
-    heading: "Vaadin Share Button",
+    heading: "Share Button for Vaadin",
     descriptions: [
       "This Vaadin Share Button is a handy add-on that seamlessly integrates a native Web Share API button into your Vaadin application.",
       "It lets users quickly share your app's url and content on social media, messaging apps, and more, with just a tap or click. 🔗",
