@@ -7,7 +7,7 @@ export const projects: Project[] = [
       "Rail Insights is a web application that focuses on the evaluation and statistical representation of Deutsche Bahn trains. The application allows users to gain insight into statistics on trains, stations, and global delays. In addition, the application offers a forecast function for future journeys.",
       "The project uses SpringBoot, MariaDB and Vaadin for the frontend. 🚆",
     ],
-    projectLink: "https://www.railinsights.de",
+    projectLink: "https://github.com/whosFritz/Rail-Insights",
     imageURL: "images/rli-favicon.png",
     displayColor: "#F50909",
   },
