@@ -44,14 +44,14 @@ export const projects: Project[] = [
     displayColor: "#f1d766",
   },
   {
-    "heading": "Vaadin Share Button",
-    "descriptions": [
+    heading: "Vaadin Share Button",
+    descriptions: [
       "The Vaadin Share Button is a handy add-on that seamlessly integrates a native Web Share API button into your Vaadin application.",
       "It lets users quickly share your app's content on social media, messaging apps, and more, with just a tap or click. 🔗"
     ],
-    "projectLink": "https://vaadin.com/directory/component/share-button-for-vaadin",
+    projectLink: "https://vaadin.com/directory/component/share-button-for-vaadin",
     imageURL: "images/shareButtonImplementation.png",
-    "displayColor": "#3dd5f0"
+    displayColor: "#3dd5f0"
   },
   {
     heading: "3D BA-Leipzig",
