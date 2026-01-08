@@ -8,7 +8,7 @@
       /></a
     >
 
-    <p>Copyright © 2025 - All right reserved</p>
+    <p>Copyright © 2026 - All right reserved</p>
   </aside>
   <nav class="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
     <a
