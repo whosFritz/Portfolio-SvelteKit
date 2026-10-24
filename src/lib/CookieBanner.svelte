@@ -35,8 +35,7 @@
 				<p class="mb-2">
 					Diese Webseite benutzt Cookies. Wenn Sie die Webseite weiter nutzen, gehen wir von Ihrem
 					Einverständnis aus. Die Cookies sind für die Funktion der Webseite notwendig. Sie können
-					die Cookies in den Einstellungen Ihres Browsers deaktivieren. Weitere Informationen finden
-					Sie in der <a class="link" href="/datenschutz">Datenschutzerklärung.</a>
+					die Cookies in den Einstellungen Ihres Browsers deaktivieren.
 				</p>
 			</div>
 			<div class="mx-auto w-full md:w-1/4 flex flex-col items-center my-auto">

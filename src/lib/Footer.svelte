@@ -10,14 +10,4 @@
 
     <p>Copyright © 2026 - All right reserved</p>
   </aside>
-  <nav class="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
-    <a
-      href="/impressum"
-      >Impressum (legal notice)</a
-    >
-    <a
-      href="/datenschutz"
-      >Datenschutzerklärung (Privacy Policy)</a
-    >
-  </nav>
 </footer>
